@@ -1,0 +1,84 @@
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+  padding: 10px;
+  grid-gap: 20px;
+
+}
+
+.card2{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color:rgb(226, 247, 125);
+  text-align: left;
+}
+.footer{
+  grid-area:footer;
+ 
+  padding:30px;
+  text-align:left;
+  font-size:10px;
+  height: 1px;
+  
+  background-color: #616161;
+}
+.header h2
+  {text-align:right;
+
+
+}
+.header {
+  grid-area: header;
+  padding: 50px;
+  text-align:left;
+  font-size:5px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #F1F1F1;
+
+}
+
+.card {
+  margin-bottom:20px ;
+ 
+ padding-bottom: 10px;
+ text-align: CENTER;
+}
+.card button{
+  background-color:#E2F77D;
+border:none;
+}
+.card p{
+  color:blue ;
+}
+.white{
+  background-color: white;
+  background-color:#F1F1F1;
+  border-bottom: 1px solid #F1F1F1 ;
+
+}
+.card3{
+  margin-bottom:50px ;
+  box-shadow: 0 0 5px blue;
+ padding-bottom: -500px;
+ background-color:lightseagreen;
+ opacity: 0.3;
+ text-align:center;
+ margin-top: -40px;
+}
+
+
+}
+
+
+
+
+
+/* Mobile Phone */
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+ 
+}
